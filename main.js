@@ -56,7 +56,7 @@ function day_night(delay,time,objOfDay)
             {
                 if(sun.getBoundingClientRect().x < 180 && sun.getBoundingClientRect().x > 120)
                     {
-                        console.log("On  passe au jour ! ")
+                        // console.log("On  passe au jour ! ")
                         objOfDay.itsDay = true;
                     }
                     else
@@ -150,7 +150,7 @@ function menuScroll(option)
 {
     
     
-   console.log(option)
+//    console.log(option)
    if(option == "Home")
    {
         window.scrollTo({
@@ -180,9 +180,22 @@ function menuScroll(option)
         behavior: 'smooth'
     });
    }
-   console.log(option)      
+//    console.log(option)      
 }
 
 
 // ALL FUNCTIONS CALLED DOWN HERE  ↓↓↓ 
 day_night(1000,90,skyBlueBackground) // LUMINAIRES FONCTIONALITY 
+
+
+
+
+// Mobile part
+const mobile_options = document.querySelector(".mobile_options");
+const mobile_options_activated = document.querySelector(".mobile_options_activated")
+
+mobile_options.addEventListener("click",() =>{
+    mobile_options.style.display = "none"
+    mobile_options_activated.style.display = "flex"
+})
+

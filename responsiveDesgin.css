@@ -1,0 +1,118 @@
+@media (width < 1600px) {
+    #Firmament{
+        width: 60%;
+    }
+
+    .right-OPTIONS ul{
+        gap: 50px;
+    }
+}
+
+@media (width < 1366px) {
+    #Firmament{
+        width: 70%;
+    }
+
+    .right-OPTIONS ul{
+        gap: 50px;
+    }
+
+    .job_box {
+        width: 40%;
+        flex-wrap: wrap;
+    }
+    .foot_box {
+        height: 700px;
+    }
+}
+
+@media (width < 1080px) { /*1080 */
+    #Firmament{
+        width: 80%;
+    }
+
+    .right-OPTIONS ul{
+        gap: 20px;
+    }
+
+    .job_box {
+        width: 40%;
+        flex-wrap: wrap;
+    }
+    .foot_box {
+        height: 700px;
+    }
+
+    .about_left{
+        width: 50%;
+    }
+    .btn1 button{
+        width: 70%;
+    }
+    .contact{
+
+        gap: 20px;
+    }
+    .contact input{
+        
+        width: 100%;
+    }
+    
+}
+
+@media (width < 720px) {
+    .mobile_options{
+        display: flex;
+    }
+    #Firmament{
+        width: 65%;
+        margin: auto;
+    }
+    .rec_firmament{
+        width: 100%;
+    
+    }
+
+    
+    .right-OPTIONS {
+        
+        display: none;
+    }
+
+    .job_box {
+        width: 40%;
+        flex-wrap: wrap;
+    }
+    .foot_box {
+        height: 700px;
+    }
+
+    .about_left{
+        width: 50%;
+    }
+    .btn1 button{
+        width: 70%;
+    }
+    .contact{
+
+        gap: 20px;
+    }
+    .contact input{
+        
+        width: 100%;
+    }
+}
+
+
+
+/* 720x1280 (HD)
+1080x1920 (Full HD)
+
+1920x1080 (Full HD)
+2560x1440 (Quad HD)
+3840x2160 (Ultra HD, 4K)
+3440x1440 (UltraWide Quad HD)
+2560x1600
+1600x900
+1366x768
+1280x720 (HD) */
