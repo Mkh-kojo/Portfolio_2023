@@ -6,6 +6,9 @@
     .right-OPTIONS ul{
         gap: 50px;
     }
+    .right-OPTIONS{
+        justify-content: start;
+    }
 }
 
 @media (width < 1366px) {
@@ -60,7 +63,7 @@
     
 }
 
-@media (width < 720px) {
+@media (width < 720px ) {
     .mobile_options{
         display: flex;
     }
@@ -102,6 +105,124 @@
         width: 100%;
     }
 }
+
+
+@media (width > 720px ){
+    .mobile_options{
+        display: none !important;
+    }
+
+    .mobile_options_activated{
+        display: none !important;
+    }
+
+    .mobile_options_activated_list ul a{
+      display: none !important;
+    }
+}
+@media (width < 500px) {
+    .mobile_options{
+        display: flex;
+        width: 10%;
+    }
+    .mobile_options_activated{
+        width: 20%;
+        font-size: 5px !important;
+    }
+
+    .mobile_options_activated_list ul a{
+      font-size: 22px;
+    }
+
+    .Home{
+        font-size: 10px !important;
+    }
+    #Firmament{
+        width: 95%;
+        margin: auto;
+    }
+    .rec_firmament{
+        width: 100%;
+    
+    }
+
+    .GLOBAL .right{
+        display: none;
+    }
+    .GLOBAL .left{
+        width: 80%;
+    }
+
+
+    /* - LEFT */
+    .left_top{
+        height:300px ;
+    }
+    .left p{
+        height:120px ;
+    }
+    .left_bottom{
+        height: 80px;
+    }
+
+
+    .right-OPTIONS {
+        
+        display: none;
+    }
+
+    
+    .global_footer{
+        min-height: 1500px;
+    }
+    .foot_box {
+        width: 100%;
+        min-height: 1300px;
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .job_box {
+        width: 80%;
+        flex-wrap: wrap;
+    }
+
+    .about_left{
+        width: 100%;
+        height: 350px;
+        /* background-color: RED; */
+    }
+    #about_me{
+        min-height: 100px !important;
+        width: 80%;
+        display: flex;
+    }
+    .about_right{
+        width: 100%;
+    }
+    .about_right ul{
+        font-size: 15px;
+    }
+    .btn1 button{
+        width: 100%;
+    }
+
+    #contact_me{
+        min-height: 100px !important;
+        width: 80%;
+        display: flex;
+    }
+    .contact{
+
+        gap: 20px;
+    }
+    .contact input{
+        
+        width: 100%;
+    }
+}
+
 
 
 

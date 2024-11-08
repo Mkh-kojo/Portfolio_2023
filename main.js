@@ -193,9 +193,16 @@ day_night(1000,90,skyBlueBackground) // LUMINAIRES FONCTIONALITY
 // Mobile part
 const mobile_options = document.querySelector(".mobile_options");
 const mobile_options_activated = document.querySelector(".mobile_options_activated")
+const exit_mobile_option = document.querySelector("#exit")
 
 mobile_options.addEventListener("click",() =>{
     mobile_options.style.display = "none"
     mobile_options_activated.style.display = "flex"
+})
+
+
+exit_mobile_option.addEventListener("click",() =>{
+    mobile_options.style.display = "flex"
+    mobile_options_activated.style.display = "none"
 })
 
